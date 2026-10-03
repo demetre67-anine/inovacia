@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="თანამედროვე და მარტივი ციფრული გადაწყვეტა თქვენი იდეების გასაცოცხლებლად.">
+  <title>ინოვაცია — შექმენი უკეთესი ციფრული გამოცდილება</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ჰედერი და ნავიგაცია -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-container">
+      <a href="#home" class="brand-logo" aria-label="მთავარ გვერდზე გადასვლა">
+        <svg class="logo-icon" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <rect width="36" height="36" rx="10" fill="#2563EB" />
+          <path d="M10 26L18 10L26 26" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M13 21H23" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" />
+        </svg>
+        <span class="logo-text">ინოვაცია</span>
+      </a>
+
+      <!-- ჰამბურგერ ღილაკი მობილურისთვის -->
+      <button class="menu-toggle" id="menuToggle" aria-label="მენიუს გახსნა" aria-expanded="false" aria-controls="mainNav">
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+      </button>
+
+      <!-- ნავიგაციის მენიუ -->
+      <nav class="main-nav" id="mainNav" aria-label="მთავარი ნავიგაცია">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#home" class="nav-link active">მთავარი</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">ჩვენ შესახებ</a>
+          </li>
+          <li class="nav-item">
+            <a href="#features" class="nav-link">შესაძლებლობები</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">კონტაქტი</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero სექცია -->
+    <section class="hero-section" id="home">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="badge-dot"></span>
+            ინოვაციური ციფრული პლატფორმა
+          </div>
+          <h1 class="hero-title">შექმენი უკეთესი ციფრული გამოცდილება</h1>
+          <p class="hero-description">თანამედროვე და მარტივი გადაწყვეტა თქვენი იდეების გასაცოცხლებლად.</p>
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary">დაწყება</a>
+            <a href="#about" class="btn btn-secondary">გაიგე მეტი</a>
+          </div>
+          <div class="hero-highlights">
+            <div class="highlight-item">
+              <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+              </svg>
+              <span>სრული უსაფრთხოება</span>
+            </div>
+            <div class="highlight-item">
+              <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+              </svg>
+              <span>სწრაფი ინტეგრაცია</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="visual-card-wrapper">
+            <!-- თანამედროვე ვექტორული ილუსტრაცია -->
+            <svg class="hero-illustration" viewBox="0 0 520 400" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="თანამედროვე ციფრული ინტერფეისის ილუსტრაცია">
+              <defs>
+                <linearGradient id="heroCardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stop-color="#FFFFFF" />
+                  <stop offset="100%" stop-color="#F1F5F9" />
+                </linearGradient>
+                <linearGradient id="heroAccentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+                  <stop offset="0%" stop-color="#2563EB" />
+                  <stop offset="100%" stop-color="#38BDF8" />
+                </linearGradient>
+                <filter id="heroShadow" x="-10%" y="-10%" width="120%" height="125%" filterUnits="userSpaceOnUse">
+                  <feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#0F172A" flood-opacity="0.08" />
+                </filter>
+              </defs>
+
+              <!-- ფონის დეკორატიული წრეები -->
+              <circle cx="430" cy="90" r="70" fill="#DBEAFE" opacity="0.6" />
+              <circle cx="90" cy="320" r="50" fill="#E0E7FF" opacity="0.5" />
+
+              <!-- მთავარი პანელი -->
+              <g filter="url(#heroShadow)">
+                <rect x="50" y="40" width="420" height="310" rx="18" fill="url(#heroCardGrad)" stroke="#E2E8F0" stroke-width="1.5" />
+                
+                <!-- ზედა პანელის ზოლი -->
+                <rect x="50" y="40" width="420" height="48" rx="18" fill="#FFFFFF" />
+                <line x1="50" y1="88" x2="470" y2="88" stroke="#E2E8F0" stroke-width="1" />
+                <circle cx="80" cy="64" r="5" fill="#EF4444" />
+                <circle cx="98" cy="64" r="5" fill="#F59E0B" />
+                <circle cx="116" cy="64" r="5" fill="#10B981" />
+                <rect x="150" y="56" width="160" height="16" rx="8" fill="#F1F5F9" />
+
+                <!-- მინი ბარათი 1 -->
+                <rect x="75" y="108" width="165" height="85" rx="12" fill="#FFFFFF" stroke="#E2E8F0" />
+                <circle cx="102" cy="135" r="14" fill="#EFF6FF" />
+                <path d="M96 135L100 139L108 131" stroke="#2563EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <rect x="126" y="126" width="90" height="8" rx="4" fill="#64748B" />
+                <rect x="126" y="140" width="60" height="6" rx="3" fill="#94A3B8" />
+
+                <!-- მინი ბარათი 2 -->
+                <rect x="255" y="108" width="185" height="85" rx="12" fill="#FFFFFF" stroke="#E2E8F0" />
+                <circle cx="282" cy="135" r="14" fill="#ECFDF5" />
+                <path d="M276 137L282 131L288 137" stroke="#10B981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <rect x="306" y="126" width="100" height="8" rx="4" fill="#64748B" />
+                <rect x="306" y="140" width="70" height="6" rx="3" fill="#94A3B8" />
+
+                <!-- გრაფიკის არე -->
+                <rect x="75" y="210" width="365" height="115" rx="12" fill="#FFFFFF" stroke="#E2E8F0" />
+                <path d="M95 295 L140 260 L200 275 L260 235 L330 250 L410 220" stroke="url(#heroAccentGrad)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                <circle cx="260" cy="235" r="5" fill="#2563EB" />
+                <circle cx="410" cy="220" r="5" fill="#38BDF8" />
+
+                <line x1="95" y1="305" x2="415" y2="305" stroke="#F1F5F9" stroke-width="1.5" />
+                <rect x="95" y="222" width="75" height="8" rx="4" fill="#0F172A" />
+              </g>
+
+              <!-- მცურავი წარმატების სამკერდე ნიშანი -->
+              <g filter="url(#heroShadow)">
+                <rect x="320" y="280" width="170" height="52" rx="12" fill="#FFFFFF" stroke="#E2E8F0" />
+                <circle cx="345" cy="306" r="12" fill="#2563EB" />
+                <path d="M340 306L344 310L351 303" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <text x="366" y="303" font-family="'Noto Sans Georgian', sans-serif" font-size="11" font-weight="700" fill="#0F172A">სტაბილური ზრდა</text>
+                <text x="366" y="318" font-family="'Noto Sans Georgian', sans-serif" font-size="10" font-weight="500" fill="#10B981">+99.8% შედეგი</text>
+              </g>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ჩვენ შესახებ -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-content">
+            <div class="section-tag">ჩვენ შესახებ</div>
+            <h2 class="section-title">ჩვენ ვქმნით თანამედროვე ციფრულ პროდუქტებს</h2>
+            <p class="about-text">
+              ჩვენ ვქმნით თანამედროვე ციფრულ პროდუქტებს, რომლებიც აერთიანებს მარტივ გამოყენებას, ფუნქციურობასა და თანამედროვე დიზაინს.
+            </p>
+            <div class="about-features-list">
+              <div class="about-feature-item">
+                <div class="feature-icon-circle">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                  </svg>
+                </div>
+                <div>
+                  <h3 class="about-feature-title">ხარისხზე ორიენტირებული მიდგომა</h3>
+                  <p class="about-feature-desc">თითოეული დეტალი დამუშავებულია მომხმარებლის მაქსიმალური კომფორტისთვის.</p>
+                </div>
+              </div>
+              <div class="about-feature-item">
+                <div class="feature-icon-circle">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <polyline points="12 6 12 12 14 14"></polyline>
+                  </svg>
+                </div>
+                <div>
+                  <h3 class="about-feature-title">უახლესი ვებ ტექნოლოგიები</h3>
+                  <p class="about-feature-desc">სუფთა, ოპტიმიზებული და ადაპტური კოდი თანამედროვე სტანდარტებით.</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="about-stats">
+              <div class="stat-card">
+                <span class="stat-number">99.9%</span>
+                <span class="stat-label">სტაბილური მუშაობა</span>
+              </div>
+              <div class="stat-card">
+                <span class="stat-number">250+</span>
+                <span class="stat-label">შექმნილი პროექტი</span>
+              </div>
+              <div class="stat-card">
+                <span class="stat-number">24/7</span>
+                <span class="stat-label">მხარდაჭერა</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-visual">
+            <div class="about-card-frame">
+              <svg class="about-illustration" viewBox="0 0 480 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ჩვენი გუნდის მუშაობის პროცესი და ციფრული გადაწყვეტები">
+                <defs>
+                  <linearGradient id="aboutGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#EFF6FF" />
+                    <stop offset="100%" stop-color="#DBEAFE" />
+                  </linearGradient>
+                </defs>
+                <rect x="20" y="20" width="440" height="380" rx="20" fill="url(#aboutGrad1)" stroke="#BFDBFE" stroke-width="1.5" />
+                
+                <!-- შიდა ინტერფეისის ბარათი -->
+                <rect x="50" y="55" width="380" height="150" rx="14" fill="#FFFFFF" />
+                <circle cx="90" cy="95" r="22" fill="#2563EB" />
+                <path d="M83 95L88 100L98 90" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <rect x="125" y="80" width="180" height="12" rx="6" fill="#0F172A" />
+                <rect x="125" y="100" width="240" height="8" rx="4" fill="#64748B" />
+                <rect x="125" y="115" width="160" height="8" rx="4" fill="#94A3B8" />
+
+                <!-- მინი სტატუსის ბლოკები -->
+                <rect x="50" y="225" width="180" height="145" rx="14" fill="#FFFFFF" />
+                <rect x="70" y="250" width="45" height="45" rx="10" fill="#EFF6FF" />
+                <path d="M92 265L85 275H93L91 285L99 275H91L92 265Z" fill="#2563EB" />
+                <rect x="70" y="310" width="110" height="10" rx="5" fill="#0F172A" />
+                <rect x="70" y="330" width="80" height="8" rx="4" fill="#64748B" />
+
+                <rect x="250" y="225" width="180" height="145" rx="14" fill="#FFFFFF" />
+                <rect x="270" y="250" width="45" height="45" rx="10" fill="#ECFDF5" />
+                <circle cx="292" cy="272" r="10" stroke="#10B981" stroke-width="2" />
+                <path d="M288 272L291 275L297 269" stroke="#10B981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <rect x="270" y="310" width="120" height="10" rx="5" fill="#0F172A" />
+                <rect x="270" y="330" width="90" height="8" rx="4" fill="#64748B" />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- შესაძლებლობები -->
+    <section class="section features-section" id="features">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="section-tag">შესაძლებლობები</div>
+          <h2 class="section-title">რატომ ჩვენ?</h2>
+          <p class="section-subtitle">სამი მთავარი უპირატესობა, რატომაც ჩვენი მომხმარებლები ირჩევენ ჩვენს პლატფორმას.</p>
+        </div>
+
+        <div class="features-grid">
+          <!-- ბარათი 1 -->
+          <article class="feature-card">
+            <div class="card-icon-container">
+              <svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+              </svg>
+            </div>
+            <h3 class="card-title">სწრაფი და საიმედო</h3>
+            <p class="card-description">ჩვენი გადაწყვეტები შექმნილია სწრაფი და სტაბილური მუშაობისთვის.</p>
+          </article>
+
+          <!-- ბარათი 2 -->
+          <article class="feature-card">
+            <div class="card-icon-container">
+              <svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="12" cy="12" r="10"></circle>
+                <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path>
+                <path d="M2 12h20"></path>
+              </svg>
+            </div>
+            <h3 class="card-title">თანამედროვე დიზაინი</h3>
+            <p class="card-description">სუფთა, თანამედროვე და მომხმარებელზე მორგებული ვიზუალური გამოცდილება.</p>
+          </article>
+
+          <!-- ბარათი 3 -->
+          <article class="feature-card">
+            <div class="card-icon-container">
+              <svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"></path>
+              </svg>
+            </div>
+            <h3 class="card-title">მარტივი გამოყენება</h3>
+            <p class="card-description">ინტუიციური ინტერფეისი, რომლის გამოყენებაც ყველასთვის მარტივია.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- კონტაქტი -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="section-tag">კონტაქტი</div>
+          <h2 class="section-title">დაგვიკავშირდი</h2>
+          <p class="section-subtitle">გაქვთ შეკითხვა ან ახალი იდეა? მოგვწერეთ და ჩვენ აუცილებლად დაგიკავშირდებით.</p>
+        </div>
+
+        <div class="contact-wrapper">
+          <div class="contact-info-panel">
+            <h3 class="info-title">მზად ხართ თანამშრომლობისთვის?</h3>
+            <p class="info-text">შეავსეთ ფორმა ან დაგვიკავშირდით პირდაპირ. ჩვენი გუნდი მზადაა გიპასუხოთ ნებისმიერ შეკითხვაზე.</p>
+            
+            <div class="contact-details">
+              <div class="detail-item">
+                <div class="detail-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                </div>
+                <div>
+                  <span class="detail-label">მისამართი</span>
+                  <span class="detail-value">თბილისი, საქართველო</span>
+                </div>
+              </div>
+
+              <div class="detail-item">
+                <div class="detail-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                </div>
+                <div>
+                  <span class="detail-label">ელფოსტა</span>
+                  <span class="detail-value">contact@inovatia.ge</span>
+                </div>
+              </div>
+
+              <div class="detail-item">
+                <div class="detail-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                  </svg>
+                </div>
+                <div>
+                  <span class="detail-label">ტელეფონი</span>
+                  <span class="detail-value">+995 (32) 200 00 00</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form-panel">
+            <!-- სტატუს შეტყობინების კონტეინერი -->
+            <div id="formAlert" class="form-alert" role="alert" aria-live="polite"></div>
+
+            <form id="contactForm" class="contact-form" novalidate>
+              <div class="form-group">
+                <label for="userName" class="form-label">სახელი</label>
+                <input 
+                  type="text" 
+                  id="userName" 
+                  name="userName" 
+                  class="form-control" 
+                  placeholder="თქვენი სახელი" 
+                  required 
+                  autocomplete="name"
+                >
+                <span class="field-error" id="nameError" aria-live="polite"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="userEmail" class="form-label">ელფოსტა</label>
+                <input 
+                  type="email" 
+                  id="userEmail" 
+                  name="userEmail" 
+                  class="form-control" 
+                  placeholder="name@example.ge" 
+                  required 
+                  autocomplete="email"
+                >
+                <span class="field-error" id="emailError" aria-live="polite"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="userMessage" class="form-label">შეტყობინება</label>
+                <textarea 
+                  id="userMessage" 
+                  name="userMessage" 
+                  rows="4" 
+                  class="form-control" 
+                  placeholder="დაწერეთ თქვენი შეტყობინება..." 
+                  required
+                ></textarea>
+                <span class="field-error" id="messageError" aria-live="polite"></span>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-submit" id="submitButton">
+                <span class="btn-text">გაგზავნა</span>
+                <svg class="btn-arrow" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                  <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"/>
+                </svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ფუტერი -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <a href="#home" class="brand-logo footer-logo" aria-label="მთავარ გვერდზე გადასვლა">
+          <svg class="logo-icon" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <rect width="36" height="36" rx="10" fill="#2563EB" />
+            <path d="M10 26L18 10L26 26" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M13 21H23" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" />
+          </svg>
+          <span class="logo-text">ინოვაცია</span>
+        </a>
+        <p class="footer-tagline">თანამედროვე ციფრული ტექნოლოგიები და ხარისხიანი ვებ გადაწყვეტები.</p>
+      </div>
+
+      <div class="footer-links-wrap">
+        <h4 class="footer-heading">ნავიგაცია</h4>
+        <ul class="footer-links">
+          <li><a href="#home">მთავარი</a></li>
+          <li><a href="#about">ჩვენ შესახებ</a></li>
+          <li><a href="#features">შესაძლებლობები</a></li>
+          <li><a href="#contact">კონტაქტი</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-social-wrap">
+        <h4 class="footer-heading">სოციალური ქსელები</h4>
+        <div class="social-links">
+          <a href="#" class="social-link" aria-label="ფეისბუქი" title="ფეისბუქი">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95C18.05 21.45 22 17.2 22 12z"/>
+            </svg>
+          </a>
+          <a href="#" class="social-link" aria-label="ლინკდინი" title="ლინკდინი">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/>
+            </svg>
+          </a>
+          <a href="#" class="social-link" aria-label="ტვიტერი" title="ტვიტერი">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+            </svg>
+          </a>
+          <a href="#" class="social-link" aria-label="ინსტაგრამი" title="ინსტაგრამი">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zm0 10.162a3.999 3.999 0 1 1 0-7.998 3.999 3.999 0 0 1 0 7.998zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container text-center">
+        <p class="copyright-text">© 2026 ყველა უფლება დაცულია.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
